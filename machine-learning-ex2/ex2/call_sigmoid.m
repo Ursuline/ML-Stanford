@@ -1,0 +1,1 @@
+end_point = 1000;lower_end = sigmoid(-end_point)mid_value = sigmoid(0)upper_end = sigmoid(end_point)sig5 = sigmoid(-5.0)sig456 = sigmoid([4 5 6])sigmoid([-1;0;1])V = reshape(-1:.1:.9, 4, 5);sigV = sigmoid(V)vec = [1 45 85]probvec = sigmoid(vec)mat = magic(3)probmat = sigmoid(mat)
