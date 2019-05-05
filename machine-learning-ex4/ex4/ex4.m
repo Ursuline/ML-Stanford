@@ -121,7 +121,7 @@ pause;
 
 
 %% ================ Part 6: Initializing Pameters ================
-%  In this part of the exercise, you will be starting to implment a two
+%  In this part of the exercise, you will be starting to implement a two
 %  layer neural network that classifies digits. You will start by
 %  implementing a function to initialize the weights of the neural network
 %  (randInitializeWeights.m)

@@ -1,0 +1,1 @@
+A = [1 2 3; 4 6 1; 4 3 1; 8 4 3; 2 1 2]B = [2 4 6 4 2; 8 6 4 2 1; 3 2 5 4 1]C = A * BR = [1 1 0 1 0 ; 0 0 0 1 1; 1 0 1 0 1 ; 1 1 1 0 0 ; 0 0 0 1 1]sum(sum((A*B)))total = sum(sum((A*B).*R))C = A * B; total = sum(sum(C(R == 1)))C = (A * B) * R; total = sum(C(:))%total = sum(sum(A(R == 1) * B(R == 1)))C = (A * B) .* R; total = sum(C(:))
